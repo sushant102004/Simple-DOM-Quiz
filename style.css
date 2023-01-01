@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=League+Spartan:wght@400;500;600;700&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'League Spartan', sans-serif; */
+}
+
+@media (max-width: 600px) {
+    a {
+        text-decoration: none;
+    }
+
+    .topContainer{
+        width: 100%;
+        height: 18rem;
+        background-color: #07AD8F;
+        border-bottom-right-radius: 6em;
+        color: #F9F9F9;
+        text-align: center;
+    }
+
+    .topContainer h1{
+        padding-top: 5rem;
+    }
+
+    .topContainer p{
+        font-size: 1.1rem;
+        padding: 1.3rem 1.1rem;
+        line-height: 1.5rem;
+    }
+
+    .optionsContainer{
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    .optionsContainer p{
+        margin: 1rem;
+        padding: 0.8rem 5rem;
+        border: 1px solid grey;
+        border-radius: 0.5rem;
+    }
+
+    .answersButtons{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    #nextQuestionButton {
+        padding: 0.5rem 1rem;
+        border: 1px solid chocolate;
+        border-radius: 0.5rem;
+        margin: auto;
+        background-color: chocolate;
+        color: white;
+        width: 30%;
+        text-align: center;
+    }
+
+    .scoreContainer{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        color: #252525;
+    }
+}
